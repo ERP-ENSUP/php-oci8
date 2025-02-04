@@ -6,13 +6,13 @@ Follow these instructions to set up and run the PHP image with Oracle OCI8:
 
 ### Clone the repository:
 ```
-git clone https://github.com/adrianharabula/php-oci8.git
+git clone https://github.com/ERP-ENSUP/php-oci8.git
 cd php-oci8
 ```
 
 ### Build and Run the Docker image:
 ```
-cd php8.2-apache-oci8
+cd php-oci8
 docker build -t php82 .
 cd ..
 docker compose up -d
